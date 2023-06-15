@@ -1,0 +1,103 @@
+:root {
+    --main-color: #336699;
+    --heading-color: #FF0000;
+    --background-color: #F5F5F5;
+    --font-size: 16px;
+    --primary-color: red ;
+  }
+
+  body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: var(--font-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    --primary-color: red ;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 800px;
+    height: 650px;
+    background-color: var(--background-color);
+    padding: 10px 20px;
+    --primary-color: green;
+
+  }
+
+  h1 {
+    color: var(--heading-color);
+    font-size: 24px;
+    text-align: center;
+    padding-bottom: 2px;
+    border-bottom: var(--heading-color) solid 2px;
+  }
+
+  h1:hover{
+    color : #e00404
+  }
+
+  p {
+    margin-bottom: 10px;
+    color: var(--primary-color)
+  }
+
+  p:hover {
+    color: #030303;
+  }
+
+  h2 {
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+    ul li{
+    width: fit-content;
+  }
+   ul li:first-child{
+    font-style: italic;
+    font-weight: bold;
+   }
+  ul li:hover {
+    font-weight: bold;
+  }
+
+  img {
+    align-self: center;
+    width: 300px;
+    height: 170px;
+    border-radius: 20px;
+  }
+
+  img:hover {
+    width: 320px;
+    /* height: 170; */
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+
+  th, td {
+    border: 2px solid #3100a3;
+    padding: 5px;
+  }
+  th:hover, td:hover {
+    background-color: dodgerblue;
+    text-decoration: 2px lightgreen underline;
+  }
+
+  th {
+    background-color: var(--main-color);
+    color: #FFF;
+  }
+  tbody tr:nth-child(3){
+    background-color: dodgerblue;
+  }
+  tbody tr:hover {
+    background-color: greenyellow;
+  }
